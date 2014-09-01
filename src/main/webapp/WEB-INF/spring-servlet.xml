@@ -34,7 +34,7 @@
 		p:location="/WEB-INF/jdbc.properties" />
 
 	<bean class="java.net.URI" id="dbUrl">
-		<constructor-arg value="#{systemEnvironment['HEROKU_POSTGRESQL_BLUE_URL']}" />
+		<constructor-arg value="#{systemEnvironment['HEROKU_POSTGRESQL_COPPER_URL']}" />
 	</bean>
 
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
